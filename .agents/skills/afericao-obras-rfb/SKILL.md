@@ -44,3 +44,10 @@ Sempre que o usuário solicitar um **parecer técnico**, **relatório para clien
 Sempre que gerar um Parecer Técnico:
 1. Salve o conteúdo completo em um arquivo dentro da pasta `pareceres_gerados/` com o nome `parecer_AAAA_MM_DD_cliente.md`.
 2. Execute no terminal o comando `textutil -convert docx pareceres_gerados/parecer_AAAA_MM_DD_cliente.md -output pareceres_gerados/parecer_AAAA_MM_DD_cliente.docx` para entregar o arquivo pronto em Word para a profissional.
+
+# Trava de Segurança para VAU (Valor Atualizado Unitário)
+
+1. **PROIBIÇÃO DE ESTIMATIVA DE VAU:** Como o VAU é atualizado mensalmente pela Receita Federal por UF e destinação da obra, é estritamente PROIBIDO estimar, inventar ou utilizar valores de VAU de meses anteriores sem confirmação explícita.
+2. **EXIGÊNCIA DE INFORMAÇÃO PRÉVIA:** Sempre que o cálculo exigir aferição por área (Edificação ou simulação comparativa de Reforma) e o usuário não tiver informado o **VAU vigente do mês** para a UF e destinação da obra:
+   - Preencha os parâmetros técnicos conhecidos (área equivalente, percentual do tipo, redução de categoria e fator social);
+   - Interrompa a conclusão numérica final do método por área e solicite expressamente: *"Para concluir o cálculo exato por área e o comparativo de economia, por favor informe o VAU vigente neste mês para a UF e destinação da obra."*
